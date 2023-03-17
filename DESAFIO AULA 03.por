@@ -2,9 +2,9 @@ programa {
   funcao inicio() {
   inteiro menu, x, y, opcao
 
-  escreva("\n Digite um número: ")
+  escreva("\n Digite um nÃºmero: ")
   leia(x)
-  escreva("\n Digite outro número: ")
+  escreva("\n Digite outro nÃºmero: ")
   leia(y)
 
   faca{ 
@@ -13,29 +13,30 @@ programa {
 
  escolha(menu){
  caso 1:
- escreva("A multiplicação desses numeros fica: ", x*y, "\n")
- escreva("Deseja sair(5) ou voltar para o menu(0)? é só apertar um desses números: ")
+ escreva("A multiplicaÃ§Ã£o desses numeros fica: ", x*y, "\n")
+ escreva("Deseja sair(5) ou voltar para o menu(0)? Ã© sÃ³ apertar um desses nÃºmeros: ")
  leia(menu)
  pare
  caso 2:
- escreva("A subtração desses numeros fica: ", x-y, "\n")
- escreva("Deseja sair(5) ou voltar para o menu(0)? é só apertar um desses números: ")
+ escreva("A subtraÃ§Ã£o desses numeros fica: ", x-y, "\n")
+ escreva("Deseja sair(5) ou voltar para o menu(0)? Ã© sÃ³ apertar um desses nÃºmeros: ")
  leia(menu)
  pare
  caso 3: 
  escreva("A soma desses numeros fica: ", x+y, "\n")
- escreva("Deseja sair(5) ou voltar para o menu(0)? é só apertar um desses números: ")
+ escreva("Deseja sair(5) ou voltar para o menu(0)? Ã© sÃ³ apertar um desses nÃºmeros: ")
  leia(menu)
  pare
  caso 4:
- escreva("A divisão desses numeros fica ", x/y, "\n")
- escreva("Deseja sair(5) ou voltar para o menu(0)? é só apertar um desses números: ")
+ escreva("A divisÃ£o desses numeros fica ", x/y, "\n")
+ escreva("Deseja sair(5) ou voltar para o menu(0)? Ã© sÃ³ apertar um desses nÃºmeros: ")
  leia(menu)
  pare
  caso contrario:
- escreva("\n opção invalida \n")
- escreva("Deseja sair(5) ou voltar para o menú(0)? é só apertar um desses números: ")
+ escreva("\n opÃ§Ã£o invalida \n")
+ escreva("Deseja sair(5) ou voltar para o menÃº(0)? Ã© sÃ³ apertar um desses nÃºmeros: ")
  leia(menu)
   }
  
 }enquanto(menu<>5)
+
