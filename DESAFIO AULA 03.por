@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-  inteiro menu, x, y, opcao
+  inteiro menu, x, y
 
   escreva("\n Digite um número: ")
   leia(x)
